@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Inter;
+}
+
+body{
+    width: 100%;
+    padding: 40px 350px;
+    height: 100vh;
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    transition: all .3s ease-in-out;
+    font-size: 15px;
+}
+
+.nav-links a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-divs{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-divs img{
+    height: 100%;
+}
+
+.mini-notes{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.mini-notes h2{
+    color: hsl(5, 85%, 63%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mini-notes span{
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.mini-notes span:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.mini-notes p{
+    color: hsl(236, 13%, 42%);
+    font-size: 16px;
+}
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    gap: 30px;
+}
+
+.information{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.information img{
+    height: 50%;
+    width: 100%;
+}
+
+.notes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notes h1{
+    font-size: 60px;
+    width: 45%;
+}
+
+.more-notes{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.more-notes p{
+    color: hsl(236, 13%, 42%);
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.more-notes button{
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.more-notes button:hover{
+    background-color: hsl(240, 100%, 5%);
+        color: hsl(36, 100%, 99%);
+}
+
+.new{
+    display: block;
+    height: 100%;
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.new h3{
+    color: hsl(36, 100%, 99%);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.new h3:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.new p{
+    color: hsl(233, 8%, 79%);
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+hr{
+    color: 1px solid hsl(236, 13%, 42%);
+    margin-bottom: 25px;
+}
